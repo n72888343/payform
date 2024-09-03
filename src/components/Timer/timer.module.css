@@ -1,0 +1,11 @@
+.timer {
+    display: inline-block;
+    width: auto;
+    background: linear-gradient(-67deg, #61AEFF 0%, #7C66FF 100%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}

@@ -1,0 +1,34 @@
+.invoiceId {
+    padding: var(--p_wrapper);
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.header .logo {
+    width: 174px;
+    height: 47px;
+}
+
+.title {
+    /* font-size: 38px; */
+    font-size: var(--font-size_large);
+    line-height: var(--line-height_large);
+    /* line-height: 69px; */
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+.bank {
+    margin-bottom: 15px;
+}

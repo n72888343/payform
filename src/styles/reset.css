@@ -1,0 +1,65 @@
+/* src/styles/reset.css */
+
+/* Убираем отступы, поля и стили списка */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-size: 16px; /* Базовый размер шрифта */
+    line-height: 1.5; /* Высота строки */
+    background-color: #f8f9fa; /* Цвет фона */
+    color: #212529; /* Цвет текста */
+    font-family: 'Stem', sans-serif;
+
+  }
+  
+  /* Удаляем стили списков */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Убираем подчеркивание ссылок и делаем их акцентированными */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Убираем стили кнопок и вводов */
+  button, input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+  }
+  
+  /* Удаляем рамку вокруг элементов, которые получили фокус */
+  :focus {
+    outline: none;
+  }
+  
+  /* Устанавливаем базовые стили для изображений */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Базовые стили для таблиц */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+  }
+  

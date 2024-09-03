@@ -1,0 +1,31 @@
+.button {
+    padding: 26px 0;
+    width: 100%;
+    background: linear-gradient(180deg, #61AEFF 0%, #7C66FF 100%);
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .button {
+        padding: 20px 0; /* Уменьшаем отступы */
+        font-size: 18px; /* Уменьшаем размер шрифта */
+        line-height: 24px; /* Увеличиваем межстрочное расстояние */
+        border-radius: 15px; /* Уменьшаем радиус скругления */
+    }
+}
+
+.button:hover {
+    filter: brightness(1.2);
+    transform: scale(1.02);
+}
+
+.button:active {
+    filter: brightness(0.9);
+    transform: scale(0.98);
+}

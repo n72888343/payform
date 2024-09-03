@@ -1,0 +1,18 @@
+:root {
+    --font-size_large: 38px;
+    --line-height_large: 69px;
+    --p_wrapper: 91px 118px;
+}
+
+@media (max-width: 1280px) {
+    :root {
+        --p_wrapper: 60px 80px;
+    }
+}
+@media (max-width: 768px) {
+    :root {
+        --font-size_large: 28px; /* или 26-30px */
+        --line-height_large: 28px; /* или 50-60px */
+        --p_wrapper: 8px;
+    }
+}

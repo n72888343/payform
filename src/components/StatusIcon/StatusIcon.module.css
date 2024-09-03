@@ -1,0 +1,22 @@
+.statusIcon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(225deg, #3095FF 0%, #735CFF 100%);
+}
+
+.success {
+    padding: 20px 16px;
+}
+
+.error {
+    padding: 21px;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+}

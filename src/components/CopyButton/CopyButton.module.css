@@ -1,0 +1,29 @@
+.copyButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 35px;
+    color: #3C89FA;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.iconCopy {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+    color: inherit;
+}
+
+.iconCopy.isCopied {
+    color: #428d42;
+}
+
+.copied {
+    color: #428d42;
+}
